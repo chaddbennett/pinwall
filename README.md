@@ -1,8 +1,3 @@
-readmetest.md
-# SnapPea
-
-#### Follow your gut.
-
 ## Developer Documentation
 #### Tools Used:
 * [React](https://facebook.github.io/react/)
@@ -22,10 +17,6 @@ readmetest.md
 
 #### APIs Used:
 
-
-#### To start contributing to the Gut codebase:
-* Fork the repo
-* Clone your fork locally
 
 ```
 * Install server and client dependencies
@@ -89,7 +80,7 @@ All API calls are made using [redux-thunk](https://github.com/gaearon/redux-thun
 
 ## Back-End
 The Pinwall Custom RESTful API is built with Node.js, Node Express, Sequelize, and Postgres.
-
+```
 ### Server
 The Node.js/Express server has the following routes and functions.
 ```
@@ -116,7 +107,7 @@ server
 │
 ├── db.js
 └── server.js
-```
+
 
 
 ### REST/CRUD Outline:
