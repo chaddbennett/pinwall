@@ -12,11 +12,8 @@
 * [Bootstrap](http://getbootstrap.com/)
 * [TinyMCE](https://react-bootstrap.github.io/)
 * [React Bootstrap](https://react-bootstrap.github.io/)
-* [React Bootstrap](https://react-bootstrap.github.io/)
 
-
-#### APIs Used:
-
+---
 
 ```
 * Install server and client dependencies
@@ -36,6 +33,7 @@ node server/server.js
 ```
 * Visit http://localhost:3000/ on your browser for the landing page
 ```
+---
 
 ## Front-End
 ### Client Application Information
@@ -76,8 +74,7 @@ client
 └── index.html
 ```
 
-All API calls are made using [redux-thunk](https://github.com/gaearon/redux-thunk) middleware within the reducers. These actions are mapped to our components via mapDispatchToProps() within the containers. The containers are also where state is mapped as props and the store is passed down to our components to render.
-
+---
 
 ## Back-End
 The Pinwall Custom RESTful API is built with Node.js, Node Express, Sequelize, and Postgres.
@@ -109,14 +106,18 @@ server
 ├── db.js
 └── server.js
 ```
-
+---
 
 ## REST/CRUD Outline:
+---
 
+### Notes API
 
 #### api/organizations/:orgId/notes GET
 
-...
+Expected   ****call path from clientside when you would like all notes from that organizations’ id  
+
+Returns an array of notes as objects
 
 ```
 [
