@@ -81,7 +81,7 @@ All API calls are made using [redux-thunk](https://github.com/gaearon/redux-thun
 
 ## Back-End
 The Pinwall Custom RESTful API is built with Node.js, Node Express, Sequelize, and Postgres.
-```
+
 ### Server
 The Node.js/Express server has the following routes and functions.
 ```
@@ -108,10 +108,10 @@ server
 │
 ├── db.js
 └── server.js
+```
 
 
-
-### REST/CRUD Outline:
+## REST/CRUD Outline:
 
 
 #### api/organizations/:orgId/notes GET
