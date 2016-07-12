@@ -3,7 +3,6 @@
 * [React](https://facebook.github.io/react/)
 * [Redux](http://redux.js.org/)
 * [React Router](https://github.com/rackt/react-router)
-* [React Router Redux](https://github.com/rackt/react-router-redux)
 * [Babel](https://babeljs.io/)
 * [Webpack](https://webpack.github.io/)
 * [Node](https://nodejs.org/en/)
