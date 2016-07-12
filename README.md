@@ -26,12 +26,13 @@
 
 ```
 npm install 
-
+```
 ```
 webpack -p
 ```
+```
 node server/server.js
-
+```
 ```
 * Visit http://localhost:3000/ on your browser for the landing page
 ```
