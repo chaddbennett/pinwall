@@ -13,7 +13,7 @@
 * [TinyMCE](https://react-bootstrap.github.io/)
 * [React Bootstrap](https://react-bootstrap.github.io/)
 
----
+
 
 ```
 * Install server and client dependencies
@@ -33,9 +33,11 @@ node server/server.js
 ```
 * Visit http://localhost:3000/ on your browser for the landing page
 ```
----
+
 
 ## Front-End
+Pinwall's client side is built using React, Redux, and Bootstrap. 
+
 ### Client Application Information
 
 ```
@@ -106,10 +108,9 @@ server
 ├── db.js
 └── server.js
 ```
----
+
 
 ## REST/CRUD Outline:
----
 
 ### Notes API
 
@@ -144,8 +145,6 @@ Returns an array of notes as objects
 ]
 
 ```
-
----
 
 
 ## The Pinwall Team
